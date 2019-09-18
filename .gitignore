@@ -1,0 +1,5 @@
+*.tar
+*.zip
+*.tar.gz
+proxy/
+v2ray/
