@@ -42,3 +42,15 @@ docker build -t alpine-temp-proxy .
 如果一切正常，你已经拥有一个本地运行的socks5代理，监听1080端口。
 
 下一步可以考虑使用SwitchyOmega之类插件做选择性科学上网。
+
+==========分隔线==========
+
+sscrawler.js和package.json是使用node.js抓取免费v2ray服务的工具
+使用前需要将在本地hosts中增加下面几句，以保证域名正确：
+104.18.18.18 free-ss.site
+104.31.74.55 youneed.win
+104.31.74.55 www.youneed.win
+
+使用方法，在同目录下执行：
+npm install
+node sscrawler.js
